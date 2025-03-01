@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+   
+</head>
+
+<body>
+    <div id="particles-js"></div>
+
+<div id="header">
+    <div class="container">
+        <nav>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/varshiniKasireddy/" target="_blank" title="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/varshiniKasireddy" target="_blank" title="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="mailto:2300060019csit@gmail.com" title="Email">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <a href="https://leetcode.com/klu2300060019" target="_blank" title="LeetCode">
+                <i class="fas fa-code"></i>
+            </a>
+            <a href="https://codechef.com/klu2300060019" target="_blank" title="CodeChef">
+                <i class="fas fa-utensils"></i>
+            </a>
+        </div>
+        
+            <ul id="sidemenu">
+
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            
+            <H1> Hello,<br>I'm <span>Varshini Kasireddy</span><br>from Tirupati.</H1>
+            <p> A passionate developer specializing in creating modern and <br>
+                efficient web applications. <br> I love solving challenges and learning new technologies.</p>
+        <a href="#about"   class="btn">More about me</a>
+        </div>
+   
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/profile.jpg">
+    <a href="images/VarshiniKasireddyResume.pdf" download class="btn about-col-1">Download CV</a>
+
+            </div>
+            <div class="about-col-2" >
+                <h1 class="sub-title">About Me</h1>
+                <p >
+                   <strong style="color: rgb(226, 93, 124);"> VARSHINI KASIREDDY <br>
+Aspiring Software Developer | B.Tech in CS&IT | Full Stack Enthusiast <br> </strong>
+<p><u> <i><strong style="color: beige;"> "Growing up in an agricultural family, I’ve learned the value of hard work, perseverance, and innovation, which drives my passion for technology."</strong> </i></u></p>
+ <br>
+I am a self-motivated ,passionate about coding, problem-solving, and becoming a skilled full-stack developer.
+ Currently, I'm honing my Python skills
+ and working on web applications through the 100 Days of Code challenge.
+ <br>I also participate in competitive programming on platforms like CodeChef, LeetCode to improve my problem-solving skills.
+
+Beyond coding, my experience in the National Cadet Corps (NCC) has strengthened my leadership and teamwork abilities. <br>I'm eager to continue my journey in tech, seeking to contribute meaningfully to a dynamic software development team while always pushing myself to learn and grow.
+                </p>
+             
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')"><b><i>Personal Info</i></b></p>
+                    <p class="tab-links" onclick="opentab('education')"> <b><i>Education</i></b></p>
+                    <p class="tab-links" onclick="opentab('hobbies')"> <b><i>Hobbies</i></b></p>
+                    <p class="tab-links" onclick="opentab('interests')"> <b><i>Interests</i></b></p>
+                    
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                   
+                    <div class="row">
+                        <div class="personal-info padd-15" margin-top="10%">
+                            <div class="row">
+                                <div class="info-item padd-15">
+                                    <p><span style="color: rgb(223, 211, 213);">BirthDay: </span> <span>29 july 2006</span></p>
+                                </div>
+                                <div class="info-item padd-15">
+                                    <p><span style="color:rgb(223, 211, 213)">  Age: </span> <span>19</span></p>
+                                </div>
+                                <div class="info-item padd-15">
+                                    <p> <span style="color: rgb(223, 211, 213)">  Website: </span> <span>www.varshiniKasireddy</span></p>
+                                </div>
+                                <div class="info-item padd-15">
+                                    <p><span style="color: rgb(223, 211, 213);"> Email:  </span> <span>2300060019csit@gmail.com</span></p>
+                                </div>
+                                <div class="info-item padd-15">
+                                    <p><span style="color: rgb(223, 211, 213);"> Degree: </span><span>B tech CS&IT</span></p>
+                                </div> 
+                                <div class="info-item ">
+                                    <p><span style="color: rgb(223, 211, 213);">phone:</span>  <span>9121814955</span></p>
+                                </div>
+                                <div class="info-item padd-15">
+                                    <p><span style="color: rgb(223, 211, 213);"> City: </span><span>Tirupati</span></p>
+                                </div>
+                                <div class="info-item padd-15">
+                                    <p><span style="color: rgb(223, 211, 213);">Freelance:</span>  <span>Available</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <div class="education-container">
+                                <img src="klulogo.jpg" alt="KL University Logo">
+            
+                            <li><span>07/2023-present  Vaddeswaram,Guntur,AndhraPradesh </span><br>B.Tech in Computer Science & IT <b><strong>(9.8/10)</strong> </b> <br>KL Deemed to be University</li>
+                            </div>
+
+                        </ul>
+                        <ul>
+                            <div class="education-container">
+                                <img src="svis.png" alt="KL University Logo">
+                                <li><span>08/2021 - 05/2023   Tirupati, Andhra Pradesh </span><br>Higher Secondary Education <strong>(86%)</strong> <br> sree Vidyanikethan International School </li>
+            
+                            </div>
+
+                        </ul>
+                        <ul>
+                            <div class="education-container">
+                                <img src="apmslogo.jpeg" alt="APMS">
+                                <li><span>06/2019 - 04/2021 Prakasam District, Andhra Pradesh </span><br>Secondary Education <strong>(95%)</strong> <br>AP Model School and Junior college</li>
+            
+                            </div>
+
+                        </ul>
+                    </div>
+                <div class="tab-contents" id="hobbies">
+                    
+                    <div class="hobby-description">
+                        <span class="close" onclick="closeModal()">&times;</span>
+                      <p>
+                        Beyond coding,I enjoy expressing my creativity through <strong style="color: beige;">drawing and painting</strong>. 
+      In my free time, I love <strong style="color: beige;">building personal coding projects</strong> 
+      that solve real-world problems. Writing in my diary is my way of reflecting 
+      on my journey, while <strong style="color: beige;">yoga</strong> keeps me physically and mentally fit. 
+      <strong style="color: beige;">Reading self-improvement and technology books</strong> inspires me to grow continuously.
+                      </p> <br>
+                    </div>
+                    <div>
+                        
+                        
+                    </div>
+                    <!-- Gallery Section -->
+                    <div class="row" >
+                     
+                      <div>
+                        <span><img src="./images/art1.jpg" alt="Artwork 1" style="width: 200px; height: auto;"></span>
+                        <img src="./images/art2.jpg" alt="Artwork 1" style="width: 420px; height: 250px;">
+                      </div>
+                    </div>
+                   
+                  </div>
+                  <div class="tab-contents" id="interests"> 
+                    <p><span >Exploring new things</span></p>
+                    <p>Competitive Programming</p>
+                    <p>Farming Activities</p>
+                  </div>
+                  
+
+
+
+                  
+                 
+                  
+            </div> 
+        </div>
+    </div>
+</div>
+
+
+<!-- ----------skills------------ -->
+<div id="skills">
+    <div class="container">
+        <h1 class="sub-title">My Skills</h1>
+
+        <div class="skills-list">
+            
+            
+            <div class="skill">MongoDB</div>
+            <div class="skill">GraphQL</div>
+            <div class="skill">FastAPI</div>
+            <div class="skill">AWS</div>
+            <div class="skill">Azure</div>
+            <div class="skill">GCP</div>
+            <div class="skill">Redis</div>
+            <div class="skill">ELK</div>
+            <div class="skill">Kafka</div>
+            <div class="skill">React</div>
+            <div class="skill">Next.js</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">TypeScript</div>
+            <div class="skill">Node.js</div>
+            <div class="skill">Python</div>
+            <div class="skill">Java</div>
+            <div class="skill">SQL</div>
+            <div class="skill">NoSQL</div>
+            <div class="skill">Docker</div>
+            <div class="skill">Kubernetes</div>
+            <div class="skill">Flask</div>
+            <div class="skill">Django</div>
+            <div class="skill">Maven</div>
+            <div class="skill">C</div>
+            <div class="skill">Linux</div>
+        </div>
+    </div>
+</div>
+
+<!--  My Certifications  -->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Certifications</h1>
+       
+            <div class="services-list">
+            <div>
+                <i class="fas fa-laptop-code"></i> <!-- Icon for programming-related certifications -->
+                <h2>The Joy of Computing using Python</h2>
+                <p>Acquired foundational knowledge in Python programming, focusing on 
+                    computational thinking and problem-solving.</p>
+            </div>
+            <div>
+                <i class="fab fa-free-code-camp"></i> <!-- FreeCodeCamp official icon -->
+                <h2>FreeCodeCamp Certification</h2>
+                <p>Mastered HTML, CSS for building responsive web applications. Completed 
+                    projects emphasizing mobile-first design and accessibility. </p>
+                    <a href="#">Learn more</a>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+
+
+
+
+<!-- ---------services---------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nulla nibh, tincidunt sit amet sapien quis.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nulla nibh, tincidunt sit amet sapien quis.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nulla nibh, tincidunt sit amet sapien quis.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you yo the talented people around the world. Download it from play store.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you yo the talented people around the world. Download it from play store.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you yo the talented people around the world. Download it from play store.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> 2300060019csit@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>9121814955</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-twitter-square"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+               
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright ©  Made wtih <i class="fas fa-heart"></i> by varshiniKasireddy</p>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = '' // add your own app script link here
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
